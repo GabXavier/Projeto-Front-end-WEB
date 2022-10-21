@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*Formatação PAGINA DE LOGIN*/
+.style{
+  height: 90vh;
+  margin: 0;
+  font-family: sans-serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  background: #010127;
+}
+
+header{
+  color: #ffff;
+  margin-bottom: 15px;
+}
+
+nav{
+  height: 350px;
+  width: 360px;
+  position: relative;
+  background-color: rgba(23, 104, 153, 60);
+  text-align: center;
+  box-shadow: 0 0 9px white;
+  border-radius: 10px 50px;
+  padding: 25px;
+}
+
+h1{
+  margin-top: 12px;
+  padding: 20px;
+}
+
+.img-login{
+  margin-top: 5px;
+}
+
+h1{
+  color: #ffff;
+}
+
+.campo{
+  position: relative;
+}
+
+nav .campo input{
+  width: 100%;
+  padding: 5px;
+  position: relative;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #03ecfe;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ffff;
+}
+
+nav .campo label{
+  position: absolute;
+  color: #ffff;
+  opacity: 0.84;
+  top: 0px;
+  left: 0px;
+  margin-top: 5px;
+  transition: .2s;
+  pointer-events: none;
+}
+
+nav .campo input:focus~label,
+nav .campo input:valid~label{
+    top: -18px;
+    left: 0px;
+    color: #ffff;
+    font-size: 12px;
+}
+
+.checkbox{
+  text-align: left;
+  color: #ffff;
+}
+
+button{
+  background-color: #010127;
+  color: #ffff;
+  padding: 10px 32px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+span{
+  color: #ffff;
+}
+
+a{
+  color: #03ecfe;
+  text-decoration-line: none;
+}
+/*Fim da FORMATAÇÃO DE LOGIN*/

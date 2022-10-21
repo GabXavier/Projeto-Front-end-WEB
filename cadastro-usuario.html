@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styleCadasrtro.css">
+	<title>Cadastro</title>
+</head>
+<body id="principal">
+	<header class="cabecalho">
+		<h1>Faça seu cadastro, simples e rápido!</h1>
+	</header>
+
+	<nav class="cadastro">
+		<form>
+			<div class="fullBox">
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+			</div>
+			<div class="halfBox">
+				<label for="nome">Primeiro nome</label>
+				<input type="text" name="nome" id="nome" placeholder="Digite o seu primeiro nome">
+			</div>
+			<div class="halfBox">
+				<label for="sobrenome">Sobrenome</label>
+				<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+			</div>
+			<div class="halfBox">
+				<label for="senha">Senha</label>
+				<input type="password" name="senha" id="senha" placeholder="Digite uma senha">
+			</div>
+			<div class="halfBox">
+				<label for="confirmaSenha">Confirme sua senha</label>
+				<input type="password" name="confirmaSenha" id="confirmaSenha" placeholder="Confirme sua senha">
+			</div>
+			<div class="fullBox">
+				<input type="checkbox" name="check" id="check">
+				<label for="checkbox" id="checkbox-label">Li e concordo com os <a href="#">termos de uso!</a></label>
+			</div>
+			<div class="botaoRegistro">
+				<input type="submit" id="botaoSubmit" value="Registrar">
+			</div>
+		</form>
+	</nav>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
